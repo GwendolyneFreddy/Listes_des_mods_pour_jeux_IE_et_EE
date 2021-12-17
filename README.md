@@ -1,7 +1,6 @@
 <div align="center"><h1>Listes des mods pour les jeux IE et EE</h1>
-</div><br>
 
-<h3>BG, BG2, BG:EE, BG2:EE, IWD, IWD:eE, IWD2, IWD2:EE, PsT et PsT:EE<h3>
+<h3>BG, BG2, BG:EE, BG2:EE, IWD, IWD:eE, IWD2, IWD2:EE, PsT et PsT:EE</h3>
 
 </div><br>
 
