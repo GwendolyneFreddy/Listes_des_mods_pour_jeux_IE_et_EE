@@ -1,0 +1,672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/style_lcc_listes2.css" type="text/css">
+
+	<title>
+		Liste des mods pour PST - La Couronne de Cuivre
+	</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script src="scripts/script_tri_liste.js"></script>
+
+	<link href="images/logocc.png" rel="icon" type="image/png" />
+  </head>
+
+  <body>
+
+	<script type="module">
+		var test1 = document.getElementById('versionHistory').getElementsByClassName("version")[0].innerText;
+		document.getElementById("latestVersion").innerText = document.getElementById('versionHistory').getElementsByClassName("version")[0].innerText;
+		var versionnb = test1.substring(7, test1.length);
+		document.getElementById("versionnb1").innerText = versionnb;
+	</script>
+
+	<div id="cartouche">
+	<a name="top" id="top"></a>
+
+	  <div id="header">
+		<h1 style="text-shadow: 0.1rem 0.1rem 0.25rem black;">
+			Liste des mods pour PST et PST:EE (WIP)
+			<a href="liste_mods_iwdb.html">
+				<img src="images/ie_games_iwd.png" title="Icewind Dale et Icewind Dale 2" style="float:right; width:128px; height:66px; margin-right:5%; margin-top:6px;">
+			</a>
+			<a href="liste_mods_bg2b.html">
+				<img src="images/ie_games_bg2.png" title="Baldur's Gate II et Throne of Bhaal" style="float:right; width:128px; height:66px; margin-right:6px; margin-top:6px;">
+			</a>
+			<a href="liste_mods_bgb.html">
+				<img src="images/ie_games_bg1.png" title="Baldur's Gate et Tales of the Sword Coast" style="float:right; width:128px; height:66px; margin-right:6px; margin-top:6px;">
+			</a>
+		</h1>
+
+		<strong>Liste des mods disponibles pour Planescape: Torment</strong>
+
+	<hr>
+
+		<img src="images/logo_lcc.png" title="La Couronne de Cuivre" alt="La Couronne de Cuivre" class="image_left" />
+		<br><br><br><br>
+		<p class="about" style="text-align: left; margin-left: 70%">
+			<strong>Auteur :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Freddy_Gwendo (aka Gwendolyne)</a>
+		</p>
+		<p class="about" style="text-align: left; margin-left: 70%">
+			<strong>Version :</strong> <span id="latestVersion" style="display: none";></span><span id="versionnb1"></span>
+		</p>
+
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<a href="https://www.baldursgateworld.fr">Site internet</a> &#8226; <a href="">Forum</a> &#8226; <a href="https://github.com/GwendolyneFreddy/Listes_des_mods_pour_jeux_IE_et_EE">GitHub</a>
+		</p>
+
+	  </div>
+
+	  <div id="menu">
+		<a href="#intro">Introduction</a> &#160;&#8226;&#160; <a href="#pstpatch">Patchs non officiels</a> &#160;&#8226;&#160; <a href="#pstvisual">Modifications graphiques ou sonores</a> &#160;&#8226;&#160; <a href="#versions">Historique des versions</a>
+	  </div>
+
+	 <div id="maindiv">
+
+<!-- ================== I n t r o d u c t i o n ================== -->
+	  <a name="intro" id="intro"></a>
+	  <div class="content">
+
+		<h2 class = "background">
+			Introduction
+		</h2><br>
+
+		<p>
+			Voici la liste des mods pour Planescape: Torment disponibles au téléchargement. Afin qu'elle soit la plus précise possible, n'hésitez pas à indiquer sur <a href="">le forum</a> si de nouvelles traductions sont en cours, sont nouvellement achevées ou sont provisoirement mises de côté (avec la possibilité ou non pour un autre traducteur de les reprendre à son compte). N'hésitez pas également à signaler tout problème, tout lien mort ou plus récent, confirmer de nouvelle compatibilité, ou tout simplement la sortie de nouveaux mods, même non-traduits.
+		</p>
+		<p>
+			Quiconque le souhaite peut apporter des modifications et des améliorations à cette liste sur ce compte <a href="https://github.com/GwendolyneFreddy/Listes_des_mods_pour_jeux_IE_et_EE">GitHub</a>.
+		</p><br>
+
+		<p>
+			Légende des mods :
+		</p>
+		<ul>
+			<li>&#10062; : mod ne nécessitant pas de traduction.</li>
+			<li>&#9989; <span style="color: DeepSkyBlue;">Bleu</span> : mod traduit et à jour.</li>
+			<li><img width=16 height=16 src="images/progress.png" /> <span style="color: lime;">Vert</span> : mod en cours de traduction.</li>
+			<li><img width=16 height=16 src="images/todo.png" /> <span style="color: red;">Rouge</span> : mod traduit, mais nécessite une mise à jour ou une "traification".</li>
+			<li>&#10060; : mod à éviter ou obsolète.</li>
+			<li>&#9888;&#65039; Attention : mod posant problème.</li>
+		</ul><br>
+
+		<address>
+			<span class="footer">Liste des mods pour PST et PSTEE &gt; Introduction</span> &#8226; <a href="#top">HAUT DE PAGE</a>
+		</address>
+	  </div>
+
+<!-- ====================== S a g a   P s T ====================== -->
+	  <a name="pst" id="pst"></a>
+	  <div class="content">
+
+		<h2 class = "background">
+			Planescape: Torment et Planescape: Torment Enhanced Edition
+		</h2><br>
+
+		<h4 style="font-size: 110%;">
+			<center><a href="#pstpatch">Patchs non officiels</a> &#160;&#8226;&#160; <a href="#pstvisual">Modifications graphiques ou sonores</a> &#160;&#8226;&#160; 
+<!--<a href="#bg2extnpc">Amélioration des PNJs recrutables (ou non) existants</a> &#160;&#8226;&#160; <a href="#bg2quest">Quêtes, nouvelles aventures et modifications des quêtes existantes</a> &#160;&#8226;&#160; <a href="#bg2tactic">Augmentation de difficulté</a> &#160;&#8226;&#160; 
+<a href="#bg2rule">Modifications du gameplay ou des règles de jeu</a> &#160;&#8226;&#160; 
+<a href="#bg2items">Ajout de sorts, de magasins et d'objets</a> &#160;&#8226;&#160; 
+<a href="#bg2kits">Ajout de profils</a> &#160;&#8226;&#160; -->
+</center>
+		</h4>
+
+		<hr>
+
+		<p>
+			<label for="countriesDropdown" style="font-weight: bold;">Choisissez votre jeu :
+			<select class= "tri" id="countriesDropdown" oninput="filterByGame()">
+			<option>Tous</option>
+			<option>PST</option>
+			<option>PSTEE</option>
+		</select></label>
+		</p>
+
+		<hr>
+
+<!-- ============== S a g a   P s T   -   P a t c h ============== -->
+		<a name="pstpatch" id="pstpatch"></a>
+		<h2 class = "background" style="margin-top: 2%;"><span class="com">PST</span>Les patchs non officiels</h2><br>
+
+		<p>Cette catégorie regroupe des patchs non officiels (c'est à dire non publiés par l'éditeur), réalisés par un moddeur ou une communauté, et ayant pour but de corriger des bugs non traités par les patchs officiels de l'éditeur. Ce type de mod s'installe toujours après le ou les patchs officiels du jeu.</p><br>
+
+		<table class="tableau" style="margin-left: 80px;line-height: 170%;" summary="Liste des patchs non officiels">
+			<colgroup>
+				<col style="border-right: 3px double #aaa;" WIDTH=320 /><col WIDTH=38 /><col style="border-right: 3px double #aaa;" WIDTH=52" /><col WIDTH=180 /><col WIDTH=64 /><col class="col8" />
+			</colgroup>
+			<tr style= "line-height: 300%;">
+				<th>Mod</th>
+				<th colspan="2" class="double">Jeux</th>
+				<th>Traducteurs</th>
+				<th WIDTH=64><img width=32 height=32 src="images/download.png" title="Téléchargement" /></th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td class="modblue">&#9989; Planescape: Torment Ultimate WeiDU Fixpack</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>mirandir et Zyl</td>
+				<td><a href="http://www.shsforums.net/files/file/647-PST-ultimate-weidu-fixpack-v413/"><img width=24 height=24 src="images/shs_reskit.png" title="Spellhold Studios" /></a> <a href="http://mirandir.baldursgateworld.fr/PST-guide-installation/files/PSTfixpack_v413_correctfr.7z"><img width=24 height=24 src="images/logocc.png" title="La Couronne de Cuivre" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0008"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0008" id="desc-0008"/>
+					<div class="contenu">
+					  <p style="width:100%;">Créé par Paul Escalona (alias Qwinn), ce mod rassemble les corrections réalisées par de nombreux moddeurs au fil des années, et converties au format WeiDU, plus compatible. Il ajoute également un bon nombre de corrections supplémentaires. En plus des nouvelles corrections faites par Qwinn, les corrections issues de trois mods non-WeiDU ont été intégrées dans ce mod: "<a href="https://sorcerers.net/Games/Torment/Platter/index.php">Platter's Fixpack 1.37</a>", dont Platter est l'auteur principal, mais qui contient aussi les travaux de plusieurs autres contributeurs. Les corrections du Fixpack Beta 1.38, toujours de Platter, sont également incluses ; "<a href="https://sorcerers.net/Games/Torment/index_mods.php">Restoration Pack</a>", par Cilantro, alias Kung Fu Man (qui restaure plusieurs sorts, objets et autres, qui avaient été supprimés de la dernière version de PST) et "SKARDAVNELNATE'S All-Inclusive Fixpack", par SKARDAVNELNATE.<br>
+					  Notez que même si ce mod ne contient que des corrections de bogues, plusieurs de ces corrections ont pour résultat de restaurer du contenu non disponible dans le jeu original.<br>
+					  Il comprend trois composants : le premier composant comporte les principales corrections, le deuxième les corrections d'orthographe et de grammaire anglaise, le troisième rajoute des sous-titres aux dialogues des cinématiques qui étaient auparavant uniquement sous forme de dialogue audio/sonore.<br>
+					  &#9888;&#65039; Attention : si vous avez installé le mod de correction de la traduction française, téléchargez le mod de la Couronne de Cuivre, sinon, utilisez le lien SHS.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="modblue">&#10062; Patch de correction des erreurs de la version française de Planescape: Torment</td>
+				<td class="jeu">PST</td>
+				<td class="jeu">PSTEE</td>
+				<td>français (par mirandir)</td>
+				<td><a href="http://mirandir.baldursgateworld.fr/PST-correcfr/"><img width=24 height=24 src="images/logocc.png" title="La Couronne de Cuivre" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0026"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0026" id="desc-0026"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod a pour vocation de corriger les différentes erreurs présentes dans la version française de Planescape: Torment et Planescape: Torment: Enhanced Edition, notamment en traduisant les entrées oubliées par les traducteurs, en corrigeant les erreurs de français, de cohérence, les non-sens, qui apparaissent parfois dans les différents dialogues.</p>
+					</div>
+				  </form></td>
+			</tr>
+
+		</table><br>
+		<p style="font-size:90%;text-align: right;"><a href="#pst">RETOUR À LA LISTE DES MODS POUR PST</a></p>
+
+		<hr>
+
+<!-- ============= S a g a   P s T   -   V i s u a l ============= -->
+		<a name="pstvisual" id="pstvisual"></a>
+		<h2 class = "background" style="margin-top: 2%;"><span class="com">PST</span>Les modifications graphiques ou sonores</h2><br>
+
+		<p>Comme leur nom l'indique, ces mods ne touchent qu'à des aspects visuels et sonores du jeu.</p><br>
+
+		<p>
+			Modifier le <a href="#filtre">filtre d'affichage</a> des mods.
+		</p><br>
+
+		<table class="tableau" style="margin-left: 80px;line-height: 170%;" summary="Liste des mods d'amélioration graphique et sonore">
+			<colgroup>
+				<col style="border-right: 3px double #aaa;" WIDTH=320 /><col WIDTH=38 /><col style="border-right: 3px double #aaa;" WIDTH=52" /><col WIDTH=180 /><col WIDTH=64 /><col class="col8" />
+			</colgroup>
+			<tr style= "line-height: 300%;">
+				<th>Mod</th>
+				<th colspan="2" class="double">Jeux</th>
+				<th>Traducteurs</th>
+				<th WIDTH=64><img width=32 height=32 src="images/download.png" title="Téléchargement" /></th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td class="mod">&#9888;&#65039; &#10062; Change TNO animation to Dustman Disguise</td>
+				<td class="jeu">PST</td>
+				<td class="jeu">PSTEE</td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://sorcerers.net/Games/Torment/Platter/index.php?page=mods"><img width=20 height=20 src="images/sorcerer.jpg" title="Sorcerer's Place" /></a> <a href="https://forums.beamdog.com/discussion/64430/mod-change-tno-animation-to-dustman-disguise"><img width=22 height=22 src="images/beamdog.png" title="Beamdog" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0134"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0134" id="desc-0134"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod attribue à Sans Nom l'apparence des Hommes poussière. Il s'agit d'une modification esthétique qui n'affectera en rien le jeu.<br>
+					  &#9888;&#65039; Attention : il s'agit d'un mod override qui écrase des fichiers.ini. À installer à vos risques et périls.<br>
+					  Utilisez le lien Beamdog pour PST:EE.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#9888;&#65039; &#10062; Cities Explored</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://sorcerers.net/Games/Torment/Platter/index.php?page=mods"><img width=20 height=20 src="images/sorcerer.jpg" title="Sorcerer's Place" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0136"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0136" id="desc-0136"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod supprime le brouillard de guerre dans les principales zones urbaines en extérieur, comme dans Baldur's Gate 2.<br>
+					  &#9888;&#65039; Attention : il s'agit d'un mod override qui écrase les fichiers .BCS. À installer à vos risques et périls.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="modlime"><img width=16 height=16 src="images/progress.png" /> Freely Resizeable Combat Log</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td>jazira</td>
+				<td><a href="http://www.shsforums.net/files/file/1221-freely-resizeable-combat-log-for-PSTee/"><img width=24 height=24 src="images/shs_reskit.png" title="Spellhold Studios" /></a> <a href="https://github.com/Argent77/A7-ResizeableCombatLog/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0149"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0149" id="desc-0149"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod permet de redimensionner dans toutes les directions le journal de combat de PST:EE qui ne pouvait l"être que sur l'axe vertical.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; Font</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://sorcerers.net/Games/Torment/index_mods.php"><img width=20 height=20 src="images/sorcerer.jpg" title="Sorcerer's Place" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0150"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0150" id="desc-0150"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod modifie la couleur de fond de l'interface ainsi que la police de caractère pour faciliter la lecture des textes affichés.<br>
+					  &#9888;&#65039; Attention : il s'agit d'un mod override qui écrase les fichiers et ne peut pas être désinstallé. À installer à vos risques et périls.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="modblue">&#9989; GhostDog's PS:T UI</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>mirandir</td>
+				<td><a href="http://www.shsforums.net/files/file/683-ghostdogs-PST-ui-mod-v22/"><img width=24 height=24 src="images/shs_reskit.png" title="Spellhold Studios" /></a> <a href="http://mirandir.baldursgateworld.fr/PST-guide-installation/files/Ghostdogs_PST_UI_mod_v2.2_fr.7z"><img width=24 height=24 src="images/logocc.png" title="La Couronne de Cuivre" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0152"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0152" id="desc-0152"/>
+					<div class="contenu">
+					  <p style="width:100%;">Combiné avec Widescreen, ce mod permet de jouer à PST dans une résolution de l'interface supérieure à 640x480. Pour ce faire, il corrige de nombreux écrans de jeu, notamment le menu Démarrer, les écrans de création de personnage, le journal, l'inventaire, les sorts et les magasins, entre autres, ainsi qu'un certain nombre d'autres composants, comme la barre inférieure de l'interface utilisateur qui a été optimisée, les infobulles et les messages en jeu (qui s'affichent désormais correctement), la boîte de dialogue et la carte du monde. De plus, il permet d'augmenter la taille des polices du jeu.<br>
+					  &#9888;&#65039; Attention : si vous avez installé le mod de correction de la traduction française, téléchargez le mod de la Couronne de Cuivre, sinon, utilisez le lien SHS.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; Journal Portrait Conversations for PST:EE</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://forums.beamdog.com/discussion/64382/mod-journal-portrait-conversations-for-PSTee"><img width=22 height=22 src="images/beamdog.png" title="Beamdog" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0169"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0169" id="desc-0169"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod affiche un portrait correspondant aux interlocuteurs dans les fenêtres de dialogue.<br>
+					  &#9888;&#65039; Attention : Il s'agit d'un mod override qui écrase les fichier du jeu et ne peut pas être désinstallé. Une option permet une installation manuelle, mais elle nécessite de modifier des fichiers.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="modlime"><img width=16 height=16 src="images/progress.png" /> Level Up Icon Tweak</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td>jazira</td>
+				<td><a href="https://forums.beamdog.com/discussion/64259/mod-level-up-icon-tweaks"><img width=22 height=22 src="images/beamdog.png" title="Beamdog" /></a> <a href="https://github.com/Argent77/A7-LevelUpTweaks/releases "><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0177"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0177" id="desc-0177"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mini mod apporte une modification cosmétique de confort à l'interface de PST:EE. Vous pouvez configurer l'affichage ou non de l'icône de passage au niveau supérieur et choisir de la déplacer sur le portrait du personnage.<br>
+					  Le mod est aussi disponible sur <a href="http://www.shsforums.net/files/file/1222-level-up-icon-tweaks/">Spellhold studios</a>.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; No Battle Music</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://sorcerers.net/Games/dl.php?s=PST&f=Torment/bmusic.zip"><img width=20 height=20 src="images/sorcerer.jpg" title="Sorcerer's Place" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0187"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0187" id="desc-0187"/>
+					<div class="contenu">
+					  <p style="width:100%;">Créé par Platter, ce petit mod supprime les musiques de combat dans le jeu, sauf celles du combat final.<br>
+					  &#9888;&#65039; Attention : Il s'agit d'un mod override qui nécessite de bien lire le readme.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">One Pixel Productions High-Quality Music for PS:T</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td></td>
+				<td><a href="http://www.shsforums.net/files/file/1008-1pp-high-quality-music-for-pst/"><img width=24 height=24 src="images/shs_reskit.png" title="Spellhold Studios" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0194"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0194" id="desc-0194"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod remplace les musiques du jeu par les mêmes, mais de meilleure qualité, à 44,1 kHz. Il affecte tous les fichiers audio .acm du jeu.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; Power Action Leprechaun Annah</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://sorcerers.net/Games/dl.php?s=PST&f=Torment/annah_patty.zip"><img width=20 height=20 src="images/sorcerer.jpg" title="Sorcerer's Place" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0207"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0207" id="desc-0207"/>
+					<div class="contenu">
+					  <p style="width:100%;">Il s'agit de fichiers modifiant l'apparence d'Annah : elle porte désormais une armure de cuir verte, un chapeau de lutin, et est armées de trèfles au lieu de poignards.<br>
+					  Les fichiers sont à extraire dans le répertoire override du jeu.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; Shader Pack: Lighting Adjustments for the EE</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://github.com/Argent77/A7-LightingPackEE/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-217"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-217" id="desc-0217"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod vise à corriger l'absence de réglage de la luminosité dans BGEE et BG2EE. Il propose une vingtaine de pré-réglages parmi lesquels il faudra en choisir un. Il suffit de réinstaller le mod pour en choisir un autre. Le <a href="https://argent77.github.io/A7-LightingPackEE/index.html">readme du mod</a> indique aussi quels fichiers modifier pour ajuster le réglage à sa guise après installation.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; Tchos' Planescape: Torment portrait replacement mod</td>
+				<td class="jeu">PsT</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="http://tchosgames.blogspot.com/2011/04/planescape-torment-portrait-mod.html">site</a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0221"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0221" id="desc-0221"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod remplace les portraits de personnages en 3D dans le jeu par des portraits de haute qualité peints à la main, comme ceux des autres jeux du moteur Infinity Engine, comme Baldur's Gate et Icewind Dale. Ces remplacements se font là où ils apparaissent dans la section PC/PNC du journal, dans les écrans de statistiques et dans les paperdolls d'inventaire. Idéalement, les futures versions de ce mod incluront des remplacements pour les portraits en bas de l'écran de jeu, ainsi que des remplacements pour le reste des membres du groupe recrutables, et peut-être des PNJ plus généraux.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; The Ultimate Easter Egg (Morte)</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://sorcerers.net/Games/dl.php?s=PST&f=Torment/morte_egghead.zip"><img width=20 height=20 src="images/sorcerer.jpg" title="Sorcerer's Place" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0224"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0224" id="desc-0224"/>
+					<div class="contenu">
+					  <p style="width:100%;">Il s'agit de fichiers modifiant l'apparence de morte : ke vous laisse le découvrir !<br>
+					  Vous pouvez éviter les fichiers de son qui sont en anglais.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="modblue">&#9989; Widescreen</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>Isaya</td>
+				<td><a href="https://www.gibberlings3.net/files/file/896-widescreen-mod/"><img width=24 height=24 src="images/g3icon.ico" title="Gibberlings3" /></a> <a href="https://github.com/Gibberlings3/widescreen/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-0227"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-0227" id="desc-0227"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod est une combinaison de patchs et de modifications d'interface graphique de jeu permettant de jouer à BG (avec son extension TotSC), BG2 (avec ou sans ToB), Icewind Dale (avec ses extensions HoW et TotLM) et Icewind Dale 2 et Planescape:Torment dans des résolutions autres que celles imposées (pour BG et PsT) ou celles proposées par les jeux (pour BG2, Icewind Dale avec son extension HoW et Icewind Dale 2).<br>
+					  Le terme de patch indique qu'il modifie l'exécutable du jeu pour forcer la résolution que vous choisissez lors de l'installation. La conséquence est que le mod n'est compatible qu'avec Windows (et Linux via l'émulation Windows). Désolé pour les utilisateurs de Mac.</p>
+					</div>
+				  </form></td>
+			</tr>
+
+		</table><br>
+		<p style="font-size:90%;text-align: right;"><a href="#bg2">RETOUR À LA LISTE DES MODS POUR PST</a></p>
+
+		<hr>
+
+<!-- =========== S a g a   P s T   -   e x t   P N J s =========== -->
+		<a name="pstextnpc" id="pstextnpc"></a>
+		<h2 class = "background" style="margin-top: 2%;"><span class="com">PST</span>Les améliorations des PNJ recrutables (ou non) existants</h2><br><br>
+
+		<table class="tableau" style="margin-left: 80px;line-height: 170%;" summary="Liste des améliorations des PNJ">
+			<colgroup>
+				<col style="border-right: 3px double #aaa;" WIDTH=320 /><col WIDTH=38 /><col style="border-right: 3px double #aaa;" WIDTH=52" /><col WIDTH=180 /><col WIDTH=64 /><col class="col8" />
+			</colgroup>
+			<tr style= "line-height: 300%;">
+				<th>Mod</th>
+				<th colspan="2" class="double">Jeux</th>
+				<th>Traducteurs</th>
+				<th WIDTH=64><img width=32 height=32 src="images/download.png" title="Téléchargement" /></th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td class="modblue">Banter Accelerator for Enhanced Edition games</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td>Freddy_Gwendo</td>
+				<td><a href="https://github.com/Argent77/A7-BanterAccelerator/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-504"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-504" id="desc-504"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod vous permet de définir le rythme des bavardages entre les personnages de votre équipe. Vous pouvez le choisir dans une liste pré-établie ou le définir vous-même. Il est compatible avec tous les jeux Enhanced Edition.</p>
+					</div>
+				  </form></td>
+			</tr>
+		</table><br>
+		<p style="font-size:90%;text-align: right;"><a href="#bg2">RETOUR À LA LISTE DES MODS POUR PST</a></p>
+
+		<hr>
+<!-- ============== S a g a   P s T   -   R u l e s ============== -->
+		<a name="psttrules" id="pstrules"></a>
+		<h2 class = "background" style="margin-top: 2%;"><span class="com">PST</span>Les modifications du gameplay ou des règles de jeu</h2><br><br>
+
+		<table class="tableau" style="margin-left: 80px;line-height: 170%;" summary="Liste des modifications du gameplay">
+			<colgroup>
+				<col style="border-right: 3px double #aaa;" WIDTH=320 /><col WIDTH=38 /><col style="border-right: 3px double #aaa;" WIDTH=52" /><col WIDTH=180 /><col WIDTH=64 /><col class="col8" />
+			</colgroup>
+			<tr style= "line-height: 300%;">
+				<th>Mod</th>
+				<th colspan="2" class="double">Jeux</th>
+				<th>Traducteurs</th>
+				<th WIDTH=64><img width=32 height=32 src="images/download.png" title="Téléchargement" /></th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td class="mod">Achievements!</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td></td>
+				<td><a href="https://www.gibberlings3.net/forums/topic/33035-achievements-for-everyone/"><img width=24 height=24 src="images/g3icon.ico" title="Gibberlings3" /></a> <a href="https://github.com/Argent77/A7-Achievements/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1108"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1108" id="desc-1108"/>
+					<div class="contenu">
+					  <p style="width:100%;">Encore une création du génial Argent77 ce mod permet de débloquer les succès des jeux EE disponibles seulement via le client Steam. Il détecte les succès déverrouillés et les affiche dans le journal pour tout joueur sans avoir besoin d'utiliser le client Steam. De plus, il est possible d'acheter un trophée des succès qui suit l'état de succès débloqués. En plus des succès officiels de Steam, le mod débloque également un petit nombre de succès inutilisés pour SoD qui sont implémentés dans le jeu mais non enregistrés par Steam.<br>
+					  Le mod peut être installé à tout moment. Il n'est pas nécessaire de démarrer une nouvelle partie. Les succès qui ont déjà été débloqués avant l'installation du mod seront détectés et ajoutés au journal.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">BG2 Tweaks and Tricks</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td></td>
+				<td><a href="https://github.com/BGforgeNet/bg2-tweaks-and-tricks/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1128"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1128" id="desc-1128"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod permet de faire mille et un petits ajustements au jeu, et s'avère être le parfait complément de <a href="#anthology">Tweaks Anthology</a>. Vous pouvez rendre les familiers plus intelligents, détecter les pièges plus rapidement et permettre à vos PNJs de "sentir" leur présence, modifier les effets de certains objets et sorts pour les rendre plus cohérents, faire des changements aux règles, vendre vos objets sans dépréciation de prix dans les magasins, désactiver les sauvegardes automatiques dans certaines transitions, diminuer le temps de chargement des zones dans les jeux originaux (d'environ 10 à 30 % selon l'auteur), et bien d'autres choses.<br>
+					  Il fonctionne avec n'importe quel jeu IE, mais tous ses composants ne sont pas applicables à tous les jeux.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; Cirerrek's AI Scripts: tSeries</td>
+				<td class="jeu">PST</td>
+				<td class="jeu">PSTEE</td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://www.gibberlings3.net/files/file/892-cirerreks-ai-scripts-tseries/"><img width=24 height=24 src="images/g3icon.ico" title="Gibberlings3" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1146"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1146" id="desc-1146"/>
+					<div class="contenu">
+					  <p style="width:100%;">Comme les eSeries pour BG2, tSeries est une collection de scripts d'IA pour Planescape: Torment, inspirés par la documentation "<i>Planescape: Torment Player AI Scripts</i>" de Gebhard Blucher's.<br>
+					  Cependant, les commandes de script de Planescape : Torment sont très limitées en comparaison avec  celles des jeux IE les plus récents, mais elles permettent toujours l'automatisation de certaines tâches, comme le lancement de sorts, l'utilisation d'objets, l'attaque et la dissimulation dans l'ombre. Les scripts ciblent l'ennemi le plus proche et l'attaquent par tous les moyens qu'ils ont à leur disposition et qu'ils jugent appropriés, en fonction des points d'expérience de l'ennemi le plus proche.<br>
+					  Veuillez consulter le <a href="https://gibberlings3.github.io/Documentation/readmes/readme-tseries.html">readme</a> pour plus détails.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10060; &#10062; Easy Core Rules</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://forum.sigil.cz/viewtopic.php?t=894">site</a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-116"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1163" id="desc-1163"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod tchèque permettait d'obtenir un maximum de PV par niveau et aucun échec dans l'apprentissage des sorts dans tous les jeux IE (BG, BG2, IWD, IWD2 et PST.<br>
+					  Il est désormais obsolète et a été remplacé par <a href="#anthology">Tweaks Anthology</a>.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10060; &#10062; Mix-Mod</td>
+				<td class="jeu">PST</td>
+				<td></td>
+				<td>pas besoin de traduction</td>
+				<td><a href="http://america.iegmc.net/borsook/">iegmc</a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1235"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1235" id="desc-1235"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mode propose une collection d'ajustements pour la plupart des jeux IE. Comme la plupart de ses pairs, il permet d'empiler lmunitions, pierres précieuses, bijoux, potions et parchemins, rendre les ennemis plus costauds, désactiver des cinématiques d'introduction...<br>
+					  Cependant, comme ce mod est très ancien, préférez-lui d'autres plus récents et plus performants comme <a href="#anthology">Tweaks Anthology</a>.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">&#10062; Multiplayer Tweaks</td>
+				<td class="jeu">PST</td>
+				<td class="jeu">PSTEE</td>
+				<td>pas besoin de traduction</td>
+				<td><a href="https://www.gibberlings3.net/forums/topic/32809-multiplayer-tweaks-fixes-for-multiplayer-sessions/"><img width=24 height=24 src="images/g3icon.ico" title="Gibberlings3" /></a> <a href="https://github.com/lzenner/mptweaks/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1238"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1238" id="desc-1238"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod corrige quelques problèmes dans des sessions multi-joueurs. Lors d'un combat, jusqu'à 5 adversaires peuvent suivre un membre du groupe qui emprunte une porte (s'applique uniquement aux zones intérieures dont les entrées sont utilisables par les PNJs). Le jeu se met en pause lorsque les PNJd deviennent hostiles pendant le dialogue<br>
+					  Ce mod a été testé avec EET, mais devrait être compatible avec BG, BG2, BGT, BGEE, BG2EE, PST, PSTEE et IWD.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="mod">Olvyn Tweaks</td>
+				<td class="jeu">PST</td>
+				<td class="jeu">PSTEE ?</td>
+				<td></td>
+				<td><a href="https://github.com/OlvynChuru/Olvyn-Tweaks"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1248"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span>TODO Description</strong></label>
+					<input type="checkbox" name="desc-1248" id="desc-1248"/>
+					<div class="contenu">
+					  <p style="width:100%;">TODO. beamdog Make quest experience divided among party members Remove the limit of two proficiency points in a weapon at character creation Fighters get 1 point per 2 levels; Rangers and Paladins still get 1 point per 3 levels Fighters, Rangers and Paladins get 1 point per 2 levels Fighters get 1 point per level; Rangers and Paladins get 1 point per 2 levels</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="modblue">&#9989; Reveal Hidden Gameplay Options</td>
+				<td></td>
+				<td class="jeu">PSTEE</td>
+				<td>Freddy_Gwendo</td>
+				<td><a href="https://github.com/Argent77/A7-HiddenGameplayOptions/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1268"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1268" id="desc-1268"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod permet de modifier la nouvelle interface de jeu de BGEE et BG2EE apparue avec la version 2.0 et Siege of Dragonspear. Il ajoute dans l'interface du jeu la possibilité de modifier des réglages déjà présents dans le fichier Baldur.lua mais qu'il fallait régler à la main, comme le "célèbre" panneau de débogage (ce qui vous dispensera de la manip indiquée dans le manuel d'installation du jeu), plusieurs paramétrages graphiques et de feedback, et d'autres encore.</p>
+					</div>
+				  </form></td>
+			</tr>
+			<tr>
+				<td class="modred"><img width=16 height=16 src="images/todo.png" /> <a name="#anthology" id="#anthology"></a>Tweaks Anthology</td>
+				<td class="jeu">PST</td>
+				<td class="jeu">PSTEE</td>
+				<td>
+				  <form id="formulaire">
+					<label for="trad-1309"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span></strong> Traducteurs</label>
+					<input type="checkbox" name="trad-1309" id="trad-1309"/>
+					<div class="contenu">
+					  <p style="width:100%; text-align:center;padding=0">Graoumf, Elgaern, elminster, Isaya, Anomaly</p>
+					</div>
+				  </form></td>
+				<td><a href="https://www.gibberlings3.net/files/file/973-the-tweaks-anthology/"><img width=24 height=24 src="images/g3icon.ico" title="Gibberlings3" /></a> <a href="https://github.com/Gibberlings3/Tweaks-Anthology/releases"><img width=24 height=24 src="images/github.png" title="GitHub" /></a></td>
+				<td style="padding-left:10px;padding-right:10px;text-align: justify;line-height: 160%">
+				  <form id="formulaire">
+					<label for="desc-1309"><strong>&nbsp;&nbsp;<span style="color: #FFCC33;">&#x25BA;</span> Description</strong></label>
+					<input type="checkbox" name="desc-1309" id="desc-1309"/>
+					<div class="contenu">
+					  <p style="width:100%;">Ce mod permet de faire mille et un petits ajustements au jeu. Vous pouvez faire des changements purement esthétiques (comme masquer les casques sur les avatars, utiliser les incantations visuelles d'Icewind Dale, ...), faire des changements aux règles (suppression de la limite d'XP, changement des tables d'expériences, lancement de sorts en armures) et assouplir certains mécanismes du jeu (empilement illimité de munitions, multi-romances, ...).<br>
+					  Il remplace complètement les anciens mods BG Tweaks, BG2 Tweaks, G3 Tweaks, Tutu Tweaks, Ease of Use, Icewind Dale Tweak, Icewind Dale II Tweak et Planescape: Torment Tweak.<br>
+					  <span style="color:red;">Nécessite une mise à jour de la traduction</span> (<span style="color:lime;">en cours par jazira</span>).</p>
+					</div>
+				  </form></td>
+			</tr>
+
+		</table><br>
+		<p style="font-size:90%;text-align: right;"><a href="#bg2">RETOUR À LA LISTE DES MODS POUR PST</a></p>
+
+		<hr>
+		<address>
+			<span class="footer">Liste des mods pour PST et PST:EE &gt; Saga PST</span> &#8226; <a href="#top">HAUT DE PAGE</a>
+		</address>
+	  </div>
+
+<!-- ======================= V e r s i o n s ====================== -->
+	  <a name="versions" id="versions"></a>
+	  <div class="content" id="versionHistory">
+
+		<h2 class = "background">
+			Historique des versions
+		</h2><br>
+
+		<p class="version">
+			Version Alpha 0.0.1 &nbsp;(date)
+		</p>
+
+		<ul style="text-align:justify;">
+			<li>Sortie initiale.</li>
+		</ul><br>
+
+
+		<address>
+			<span class="footer">État de traduction des mods IE &gt; Historique des versions</span> &#8226; <a href="#top">HAUT DE PAGE</a>
+		</address>
+	  </div>
+
+	 </div>
+	</div>
+  </body>
+</html>
