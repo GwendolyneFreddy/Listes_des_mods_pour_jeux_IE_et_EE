@@ -1,6 +1,6 @@
 <div align="center"><h1>Listes des mods pour les jeux IE et EE</h1>
 
-<h3>BG, BG2, BG:EE, BG2:EE, IWD, IWD:eE, IWD2, IWD2:EE, PsT et PsT:EE</h3>
+<h3>BG, BG2, BG1Tutu, BGT, BG:EE, BG2:EE, EET, IWD, IWD:EE, IWD2, IWD2:EE, PST et PST:EE</h3>
 
 </div><br>
 
@@ -39,3 +39,7 @@
 		<td><a href="https://gwendolynefreddy.github.io/docs/lcc/liste_mods_pstb.html">skin BG2</a></td>
 	</tr>
 </table>
+
+
+<hr>
+

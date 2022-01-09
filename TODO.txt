@@ -1,0 +1,133 @@
+******************************************************************
+**                            T O D O                           **
+******************************************************************
+
+0. Mettre à jour le lien de la discussion du forum lorsqu'elle sera créée.
+
+1. Remplir toutes les descriptions manquantes ("TODO Description" dans les listes).
+
+2. Vérifier les mods manquants et/ou les liens de téléchargement manquants.
+
+3. Vérifier tous les liens de LCC comme https://akadis.baldursgateworld.fr depuis que Fossy les a fait passer de http à https.
+
+4. Dimension Gate: Or How TV Bunny searched TV Remote Control [BGEE] http://www.shsforums.net/files/file/1272-dimension-gate-or-how-tv-bunny-searched-tv-remote-control/ + http://www.shsforums.net/files/file/1271-spellfix-visual-effects/
+
+5. Barbarian Companion: Overpowered Edition 1.0 : http://www.shsforums.net/files/file/1277-barbarian-companion-overpowered-edition/
+
+6. Ajouter Generalized Biffing quelque part : http://www.shsforums.net/files/file/741-generalized-biffing/ https://github.com/SpellholdStudios/generalized_biffing/releases
+
+
+* ========= *
+*  PATCHES  *
+* ========= *
+
+Ajouter 0024 Patch correctif pour BG2:EE et 0026 Patch correctif pour BG:EE.
+
+
+* ============ *
+*  GRAPHIQUES  *
+* ============ *
+
+Vérifier la description du mod Artaport (0106).
+
+Vérifier ce mod allemand : https://www.baldurs-gate.de/index.php?threads/neue-mod-npc-portraits.37417/
+
+BG1 NPC Portrait Pack : https://www.nexusmods.com/baldursgate/mods/14
+
+BG2:EE Antique Amber GUI [BG2EE] // A été supprimé par son auteur, pas de lien
+BG2:EE Antique Brass GUI [BG2EE] // A été supprimé par son auteur, pas de lien
+
+Classic Spellbook for BG:EE, SoD and BG2:EE : https://forums.beamdog.com/discussion/63434/mod-classic-spellbook-for-bg-ee-sod-and-bg2-ee/p1
+
+Corvias' Bigger Fonts : http://www.shsforums.net/topic/38626-bigger-fonts-for-bgiitob-and-other-ie-games/
+
+Custom Colors pour bgee, bg2ee eteet
+
+Ajouter aussi ce lien http://www.shsforums.net/files/file/1103-minor-npc-portraits-for-iwdee/ ?
+
+Restore missing Portrait : https://forums.beamdog.com/discussion/58204/mod-restore-missing-portrait-bg1ee-sod-bg2ee retiré par l'auteur
+
+Unlimited Pixel Works : https://forums.beamdog.com/discussion/63834/portrait-pack-unlimited-pixel-works-v2-updated-2017-09-09
+
+
+* ======== *
+*  QUÊTES  *
+* ======== *
+
+Modding contests :
+igi’s Facing the Shade Lord again http://www.blackwyrmlair.net/Contests/ShadeLord2006/submission-igi.zip
+K'aeloree's Facing the Shade Lord again http://www.blackwyrmlair.net/Contests/ShadeLord2006/submission-k'aeloree.zip
+Facing the Shade Lord again", both igi's & k?aeloree's versions?  ==> http://www.shsforums.net/topic/45601-missing-mods/page-2#entry492860
+
+
+* ================ *
+*  PNJ : NOUVEAUX  *
+* ================ *
+
+Alanya NPC-Mod jamais publié : https://www.baldurs-gate.de/index.php?threads/bg2-alanya-npc-mod.37583/ http://www.shsforums.net/topic/36493-bg2-alanya-npc-mod/
+
+slot libre : manque desc-0635 entre Summon Bhaalspawn et Taim NPC
+
+
+One day NPC : Ajouter ou pas les liens pour 
+Jason Comptons Bruce http://mods.pocketplane.net/bruce-Compton.rar
+Willie Bruce http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=downfile&id=15
+
+
+* ================== *
+*  PNJ : EXTENSIONS  *
+* ================== *
+
+Pour rappel : desc-0829 (Cernd Friendship) - 830 (Haer'Dalis) - 831 (Imoen) - 832 (Korgan) - 833 (Mazzy) - 834 (Minsc) - 835 (Sarevok) - 836 (Valygar) - 837 (Viconia) - 838 (Yoshimo)
+
+Ajouter le mod Sarevok Expansion qui semble avoir disparu ???
+
+
+* ============== *
+*  PNJ : OBJETS  *
+* ============== *
+
+Demon Summon Ritual (1026) : ajouter ???
+					  &#9888;&#65039; À noter : il refuse de s'installer après des mods modifiant les mages (comme SCS).</p>
+
+
+* ========= *
+*  PROFILS  *
+* ========= *
+
+Récupérer les liens de téléchargement des mods Amazon Kit, Arcane Archer Kit et Tiger Style monk sur le site russe https://arcanecoast.ru.
+
+Morrow Gate : vérifier le contenu du mod Natural Selection.
+
+Orcish Scout Kit : le fichier est au format .ace impossible à ouvrir.
+
+
+* ========== *
+*  GAMEPLAY  *
+* ========== *
+
+
+
+* =============== *
+*  MODS DISPARUS  *
+* =============== *
+
+BGT NSC Portraits
+Improved Anvil Lite
+Sandrah NPC
+Sandrah - Return to Faerun
+Sandrah - Times of Trouble
+Sandrah Item Restauration
+
+Chiara NPC
+Frennedan NPC
+Genwas Haendlermod (Djinmod) kit
+Malthis NPC
+Octavians Drizzt NPC
+Realm of the Bhaalspawn Armor Set
+Shar-Teel NPC
+TS25 MiniMod
+Wedges BGT Adventure Pack
+
+Disparu : https://forums.beamdog.com/discussion/16668/mod-beta-subraces-for-bgee-0-77/p1
+
